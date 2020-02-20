@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<UserSecretsId>90aa2615-a714-44f6-96f9-ea266d8fc831</UserSecretsId>
     <ApplicationIcon>ITGreen.ico</ApplicationIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Portland.DevCentre.RetrieveSecureLoginsStandard</PackageId>
-    <Version>1.0.0.1</Version>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Version>1.0.0.2</Version>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
     <Authors>Steve Irwin</Authors>
     <Company>Portland Fuel</Company>
     <Description>Mostly for us in house but feel free to implement it if you want. It allows you to hide secrets in the UserSecrets folder then you can extract them using this Class Library.
@@ -16,6 +17,11 @@ Compatible with
 .NET Framework
 .NET Standard &gt;= 2.0</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SureShotUK/RetrieveSecureLoginsStandard</PackageProjectUrl>
+    <PackageIcon>PortlandRainbowRingLogoGreen.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/SureShotUK/RetrieveSecureLoginsStandard</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +31,13 @@ Compatible with
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.2" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.2" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\New IT Images\Standard\PortlandRainbowRingLogoGreen.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
