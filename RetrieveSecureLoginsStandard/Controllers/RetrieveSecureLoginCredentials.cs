@@ -1,9 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
-using RetrieveSecureLoginsStandard.Controller;
 using RetrieveSecureLoginsStandard.Models;
 using System;
 
-namespace RetrieveSecureLoginsStandard
+namespace RetrieveSecureLoginsStandard.Controller
 {
     public class RetrieveSecureLoginCredentials : IRetrieveSecureLoginCredentials
     {
