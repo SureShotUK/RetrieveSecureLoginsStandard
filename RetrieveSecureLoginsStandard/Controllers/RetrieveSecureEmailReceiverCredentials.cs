@@ -5,13 +5,13 @@ using System;
 
 namespace RetrieveSecureLoginsStandard.Controllers
 {
-    public class RetrieveSecureEmailReceierCredentials
+    public class RetrieveSecureEmailReceiverCredentials
     {
         /// <summary>
         /// Returns the secure login details for Email
         /// </summary>
         public EmailReceiver EmailReceiver { get; set; }
-        public RetrieveSecureEmailReceierCredentials()
+        public RetrieveSecureEmailReceiverCredentials()
         {
             var configs = GetConfiguration.GetConfigs;
             EmailReceiver = configs.Configuration.GetSection("EmailReceiver")
