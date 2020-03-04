@@ -6,8 +6,8 @@
     <ApplicationIcon>ITGreen.ico</ApplicationIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Portland.DevCentre.RetrieveSecureLoginsStandard</PackageId>
-    <Version>1.0.0.5</Version>
-    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <Version>1.0.0.7</Version>
+    <AssemblyVersion>1.0.0.7</AssemblyVersion>
     <Authors>Steve Irwin</Authors>
     <Company>Portland Fuel</Company>
     <Description>Mostly for us in house but feel free to implement it if you want. It allows you to hide secrets in the UserSecrets folder then you can extract them using this Class Library.
