@@ -4,7 +4,7 @@ using System;
 
 namespace RetrieveSecureLoginsStandard.Controller
 {
-    class RetrieveSecureAppCredentials : IRetrieveSecureDatabaseCredentials
+    public class RetrieveSecureAppCredentials : IRetrieveSecureDatabaseCredentials
     {
         public AppCredentials AppCredentials { get; set; }
 

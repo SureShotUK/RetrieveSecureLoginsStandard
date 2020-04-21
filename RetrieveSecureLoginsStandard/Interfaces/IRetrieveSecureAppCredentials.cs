@@ -3,7 +3,7 @@
 
 namespace RetrieveSecureLoginsStandard.Interfaces
 {
-    interface IRetrieveSecureAppCredentials : IRetrieveSecureCredentials<AppCredentials>
+    public interface IRetrieveSecureAppCredentials : IRetrieveSecureCredentials<AppCredentials>
     {
     }
 }
